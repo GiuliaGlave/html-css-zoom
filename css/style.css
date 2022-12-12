@@ -1,0 +1,37 @@
+main{
+    background-color: black;
+    height: 100vh;
+    
+}
+
+/* .container{
+    background-color: aqua;
+    width: 90vw;
+    height: 90vh;
+  
+} */
+
+.cards{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap:wrap
+}
+
+span {
+    color: white;
+    background-color: rgb(255 255 255 / 33%);
+}
+
+.mic-status{
+    position: relative;
+    left: -204px;
+    top: -5px;
+    padding: 2px 6px;
+}
+
+.user-name{
+    position: relative;
+    left: -208px;
+    top: -5px;
+    padding: 2px 6px;
+}
