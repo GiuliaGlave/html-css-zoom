@@ -1,4 +1,4 @@
-/* Utils 
+/* Utils */
 
 .container {
 	max-width: 1200px;
@@ -9,4 +9,10 @@
 	content: '';
 	clear: both;
 	display: table;
+}
+
+button{
+	background: none;
+	border: none;
+	color: white;
 }

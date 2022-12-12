@@ -11,9 +11,10 @@ header {
     align-items: flex-start;
 }
 
-button{
+.header-btn{
     background-color: rgb(255 255 255 / 33%);
     color: white;
+    border: none;
     font-size: small;
     padding: 3px;
     border-radius: 5px;
@@ -27,25 +28,29 @@ button{
    display: flex;
    justify-content: space-between;
    flex-wrap:wrap;
-   margin: 0 80px;
 }
 
 span {
     color: white;
-    background-color: rgb(255 255 255 / 33%);
 }
 
 .mic-status{
+    font-size: small;
     position: relative;
     top: -24px;
     padding: 2px 6px;
+    color: white;
+    background-color: rgb(255 255 255 / 33%);
 }
 
 .user-name{
+    font-size: small;
     position: relative;
     left: -4px;
     top: -24px;
     padding: 2px 6px;
+    color: white;
+    background-color: rgb(255 255 255 / 33%);
 }
 
  .user-box{
@@ -54,6 +59,11 @@ span {
     padding: 2px;
 } 
 
-img{
-    object-fit: cover;
+nav{
+    background-color: gray;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
