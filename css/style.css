@@ -37,15 +37,14 @@ span {
 
 .mic-status{
     position: relative;
-    left: -204px;
-    top: -5px;
+    top: -24px;
     padding: 2px 6px;
 }
 
 .user-name{
     position: relative;
-    left: -208px;
-    top: -5px;
+    left: -4px;
+    top: -24px;
     padding: 2px 6px;
 }
 
